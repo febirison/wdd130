@@ -1,0 +1,63 @@
+
+ :root {
+    --primary-color: #3399FF;  /* Vivid Blue */
+    --secondary-color: #2ECC71;  /* Emerald Green */
+    --accent1-color: #F98400;  /* Sunset Orange */
+    --accent2-color: #FFFFFF;  /* White */
+  
+    --heading-font: Montserrat, sans-serif;
+    --paragraph-font: Open Sans, sans-serif;
+  
+    --nav-background-color: #F98400;  /* Accent Orange */
+    --nav-link-color: #FFFFFF;  /* White */
+    --nav-hover-link-color: #3399FF;  /* Vivid Blue */
+    --nav-hover-background-color: #EEEEEE;  /* Light Gray */
+  }
+  
+  body {
+    font-family: var(--paragraph-font);  /* Set font-family using paragraph-font variable */
+    max-width: 960px;  /* Limit width to 960 pixels */
+    padding: 20px;  /* Add 20px padding around the document */
+  }
+  
+  /* Headings */
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: #3399FF;  /* Vivid Blue */
+  }
+  
+  /* Header */
+  header {
+    padding: 20px;
+    background-color: #2ECC71;  /* Emerald Green */
+  }
+  
+  /* Paragraphs */
+  p {
+    padding: 25px;
+  }
+  
+  /* Navigation */
+  nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+  }
+  
+  nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+    
+  }
+  
+  nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+  }
+
+  nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+  }
+  
