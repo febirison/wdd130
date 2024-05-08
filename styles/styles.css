@@ -42,7 +42,7 @@ aside {
 }
 
 aside h2{
-    position: relative;
+    position: absolute;
     top: 30px;
     left: 0px;
 }
@@ -58,7 +58,7 @@ footer {
     text-align: center;
 }
 
-/* Class Selector */
+/*Class Selector*/
 .box {
     margin: 1rem;
     border: 1px solid rgba(0,0,0,1);
