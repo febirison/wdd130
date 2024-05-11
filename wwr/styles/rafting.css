@@ -1,0 +1,107 @@
+/* Import font(s) from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+/* Define colors from your color schema */
+:root {
+  --primary-color: #3399FF; /* Vivid Blue (replace with your primary color) */
+  --secondary-color: #2ECC71; /* Emerald Green (replace with your secondary color) */
+  --accent1-color: #F98400; /* Sunset Orange (replace with your accent color 1) */
+  --accent2-color: #FFFFFF; /* White */
+
+  --heading-font: Montserrat, sans-serif;
+  --paragraph-font: Open Sans, sans-serif;
+
+  --nav-background-color: #F98400; /* Accent Orange (replace with your navigation background color) */
+  --nav-link-color: #FFFFFF; /* White (replace with your navigation link color) */
+  --nav-hover-link-color: #3399FF; /* Vivid Blue (replace with your navigation hover link color) */
+  --nav-hover-background-color: #EEEEEE; /* Light Gray (replace with your navigation hover background color) */
+
+  --hero-background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background for hero section */
+  --article-background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background for article */
+  --heading-background-color: rgba(0, 0, 0, 0.3); /* Semi-transparent black background for heading */
+}
+
+/* Style headings */
+h1, h2  {
+  
+  font-weight: 500;
+  margin: 1rem 0;
+  /* White color for heading */
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: var(--accent2-color);
+  font-family: var(--heading-font);
+  position: absolute;
+}
+
+h2 {
+  font-size: 1.8rem;
+  color: var(--accent1-color);
+  font-family:var(--heading-font);
+}
+.his {
+    bottom: 20%;
+}
+/* Style paragraphs */
+p {
+  font-family: var(--paragraph-font);
+  font-size: 1rem;
+  line-height: 1.5;
+  color: var(--text-color); /* Consider adding a text color variable */
+  margin-bottom: 1rem;
+}
+
+/* Style hero section */
+.hero {
+    position: relative; /* Set container to relative for absolute positioning */
+    height: 500px; /* Adjust height as needed */
+    background-image: url("images/hero.jpg"); /* Replace with your hero image path */
+    background-size: cover;
+    background-position: center;
+  }
+
+
+/* Style hero heading */
+.hero h1 {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 1rem;
+  background-color: var(--heading-background-color); /* Semi-transparent black background */
+  text-align: center; /* Center align the text */
+}
+
+/* Style article element */
+article {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 2rem;
+  opacity: 100%;
+  background-color: var(--article-background-color); /* Set background color with opacity */
+}
+
+/* Style article image */
+article img {
+  float: right;
+  align-content: center;
+  width: 190px; /* Adjust width as needed for smaller images */
+  margin-left: 2rem;
+  margin-bottom: 1rem;
+}
+
+/* Style social media links */
+footer a img {
+  width: 30px; /* Adjust width for desired size of footer images */
+  height: 30px; /* Adjust height for desired size of footer images */
+}
+
+/* Limit page width for easier design */
+body {
+  max-width: 1000px;
+  margin: 0 auto;
+}
