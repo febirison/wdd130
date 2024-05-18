@@ -38,7 +38,7 @@ h1 {
 
 h2 {
   font-size: 1.8rem;
-  color: var(--accent1-color);
+  color: rgb(15, 15, 109);
   font-family:var(--heading-font);
 }
 .his {
