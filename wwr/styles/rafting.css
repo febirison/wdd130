@@ -101,8 +101,123 @@ footer a img {
   height: 30px; /* Adjust height for desired size of footer images */
 }
 
+
+/* Style the footer */
+footer {
+  display: flex; /* Use flexbox for horizontal layout */
+  justify-content: flex-end; /* Align items to the right */
+  align-items: center; /* Center items vertically */
+  padding: 10px; /* Add padding */
+}
+
+/* Style the social media links */
+footer a {
+  margin-left: 10px; /* Add some spacing between the links */
+}
+
+/* Style the social media icons */
+footer img {
+  width: 30px; /* Adjust width for desired size of footer images */
+  height: 30px; /* Adjust height for desired size of footer images */
+}
+
+
+
+
 /* Limit page width for easier design */
 body {
   max-width: 1000px;
   margin: 0 auto;
 }
+
+/* Grid layout for header */
+header {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  padding: 10px;
+}
+
+header .logo {
+  max-width: 200px; /* Adjust the logo width if necessary */
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px; /* Add some space between the links */
+}
+
+header nav a {
+  color: var(--nav-link-color);
+  text-decoration: none;
+  padding: 10px 15px; /* Add padding for better visibility */
+  background-color: var(--nav-background-color); /* Background color for links */
+  border-radius: 5px; /* Rounded corners for links */
+  transition: background-color 0.3s, color 0.3s;
+}
+
+header nav a:hover {
+  color: var(--nav-hover-link-color);
+  background-color: var(--nav-hover-background-color);
+  border-radius: 5px;
+}
+
+/* Style History section */
+.history-section {
+  display: flex; /* Align items in a row */
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center items horizontally */
+  padding: 20px; /* Add padding around the section */
+}
+
+.history-section h2 {
+  color: var(--primary-color); /* Set heading color */
+  font-size: 2rem; /* Adjust heading font size */
+  margin-bottom: 20px; /* Add space below the heading */
+}
+
+.history-section p {
+  font-size: 1.2rem; /* Adjust paragraph font size */
+  text-align: center; /* Center align paragraph text */
+}
+
+.history-section img {
+  width: 100%; /* Make images responsive */
+  max-width: 500px; /* Limit maximum width of images */
+  margin-top: 20px; /* Add space above the images */
+}
+
+
+/* Style the Adventures section */
+.adventures-section {
+  display: flex; /* Use flexbox */
+  flex-direction: row; /* Arrange items horizontally */
+  justify-content: space-between; /* Distribute images evenly along the main axis */
+  align-items: center; /* Center items vertically */
+  margin-top: 20px; /* Add margin on top */
+  margin-bottom: 20px; /* Add margin on bottom */
+}
+
+
+/* Style the figure elements */
+.adventures-section figure {
+  margin: 10px; /* Add some margin between figures */
+  text-align: center; /* Center the captions */
+}
+
+/* Style the figure images */
+.adventures-section figure img {
+  width: 110%; /* Adjust width as needed for desired image size */
+  object-fit: cover;/* Crop images to fit while maintaining aspect ratio */
+}
+
+/* Style the figure captions */
+.adventures-section figcaption {
+  font-style: italic; /* Add a slight italic style to captions */
+  font-size: 0.8rem; /* Adjust caption font size */
+}
+
+
+
+
