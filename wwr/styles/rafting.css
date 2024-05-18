@@ -152,7 +152,7 @@ header nav a {
   color: var(--nav-link-color);
   text-decoration: none;
   padding: 10px 15px; /* Add padding for better visibility */
-  background-color: var(--nav-background-color); /* Background color for links */
+  background-color:rgb(15, 15, 109);  ; /* Background color for links */
   border-radius: 5px; /* Rounded corners for links */
   transition: background-color 0.3s, color 0.3s;
 }
@@ -188,6 +188,9 @@ header nav a:hover {
   margin-top: 20px; /* Add space above the images */
 }
 
+.history-section h2{
+  color:rgb(15, 15, 109);
+}
 
 /* Style the Adventures section */
 .adventures-section {
@@ -219,5 +222,6 @@ header nav a:hover {
 }
 
 
-
-
+.adventures-section h2{
+  color:rgb(15, 15, 109);
+}
