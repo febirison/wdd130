@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>WDD 130 | Basic HTML and CSS Quiz</title>
+  <link rel="stylesheet" href="styles/quiz.css">
+</head>
+<body>
+<header>
+  <h1>Basic HTML and CSS Quiz</h1>
+</header>
+<main>
+    <form id="quiz-form">
+        <label for="q1">Question 1: Fill in the blank</label>
+        <input type="text" id="q1" name="q1" placeholder="Enter your answer" required>
+
+        <label for="q2">Question 2: Short answer</label>
+        <textarea id="q2" name="q2" rows="4" placeholder="Enter your answer" required></textarea>
+
+        <label for="q3">Question 3: Dropdown</label>
+        <select id="q3" name="q3" required>
+            <option value="" selected disabled>Choose one...</option>
+            <option value="a">Option A</option>
+            <option value="b">Option B</option>
+            <option value="c">Option C</option>
+        </select>
+
+        <label for="q4">Question 4: Integer answer</label>
+        <input type="number" id="q4" name="q4" placeholder="Enter your answer" required>
+
+        <button type="submit">Submit Quiz</button>
+    </form>
+</main>
+<footer>
+  <p>©2024 | Basic HTML and CSS Quiz | Okai Anderson</p>
+</footer>
+</body>
+</html>
