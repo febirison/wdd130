@@ -1,0 +1,219 @@
+/* Import the font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Apply the font to body and form elements */
+body, input, select, textarea, button {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Universal selector to reset margin and padding, and set box-sizing to border-box */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Style the body element */
+body {
+  font-family: 'Roboto', sans-serif; /* Set the default font family */
+  background-color: #f4f4f9; /* Light gray background for a clean look */
+  color: #333; /* Dark gray text color for good contrast */
+  line-height: 1.6; /* Set a comfortable line height for readability */
+  margin: 0; /* Remove default margin */
+  padding: 20px; /* Add some padding for spacing around the content */
+}
+
+/* Style the header element */
+header {
+    background-color: #3399FF; /* Primary blue color for the header background */
+    padding: 20px; /* Add padding for spacing inside the header */
+    text-align: center; /* Center-align the text inside the header */
+    color: white; /* Set the text color to white for contrast */
+    margin-bottom: 20px; /* Add some space below the header */
+  }
+  
+  /* Style the h1 element inside the header */
+  header h1 {
+    font-size: 2rem; /* Set a larger font size for the main heading */
+    font-weight: 700; /* Use a bold font weight */
+    margin: 0; /* Remove default margin */
+  }
+  
+  form {
+    width: 80%; /* Set the width of the form */
+    margin: 0 auto; /* Center the form horizontally */
+    padding: 20px; /* Add padding inside the form */
+    border: 1px solid #ccc; /* Add a border around the form */
+    border-radius: 10px; /* Make the corners rounded */
+    background-color: #f9f9f9; /* Set a light background color */
+    display: grid; /* Use grid layout */
+    gap: 15px; /* Add space between the grid items */
+  }
+
+  fieldset {
+    display: grid; /* Use grid layout */
+    gap: 15px; /* Add space between grid items */
+    border: 1px solid #ccc; /* Set border for fieldset */
+    border-radius: 8px; /* Round the corners of fieldset */
+    padding: 20px; /* Add padding inside the fieldset */
+    background-color: #ffffff; /* Set background color of fieldset */
+  }
+  
+  /* Style the legend element */
+  fieldset legend {
+    font-size: 1.2em; /* Increase font size of the legend */
+    font-weight: bold; /* Make the legend text bold */
+    margin-bottom: 10px; /* Add margin below the legend */
+  }
+
+  /* Style form elements */
+form {
+    font-family: Arial, sans-serif; /* Set font family for form elements */
+  }
+  
+  /* Style labels */
+label {
+    display: block; /* Make labels block-level elements */
+    margin-bottom: 8px; /* Add margin below labels for spacing */
+    text-align: right; /* Align text to the right */
+    padding-right: 10px; /* Add padding to the right of labels */
+  }
+  
+  
+  /* Style input fields */
+  input[type="text"],
+  input[type="email"],
+  textarea,
+  select {
+    width: 100%; /* Make input fields, textarea, and select full-width */
+    padding: 8px; /* Add padding inside input fields */
+    margin-bottom: 15px; /* Add margin below input fields for spacing */
+    border: 1px solid #ccc; /* Add border to input fields */
+    border-radius: 5px; /* Round the corners of input fields */
+    box-sizing: border-box; /* Include padding and border in input width */
+  }
+  
+  /* Style textarea */
+  textarea {
+    resize: vertical; /* Allow vertical resizing of textarea */
+    padding: 8px; /* Add padding to input, select, and textarea */
+    font-size: 16px; /* Set a larger font size */
+}
+  
+  /* Style submit button */
+  button[type="submit"] {
+    padding: 10px 20px; /* Add padding to submit button */
+    border: none; /* Remove border from submit button */
+    border-radius: 5px; /* Round the corners of submit button */
+    background-color: #3399FF; /* Set background color of submit button */
+    color: #fff; /* Set text color of submit button */
+    cursor: pointer; /* Change cursor to pointer on hover */
+  }
+  
+  /* Style select element */
+  select {
+    padding: 8px; /* Add padding inside select element */
+  }
+  
+/* Style the checkbox */
+input[type="checkbox"] {
+    width: 20px; /* Set width */
+    height: 20px; /* Set height */
+    vertical-align: bottom; /* Align at the bottom */
+  }
+
+  /* Style the button */
+button {
+    padding: 10px 20px; /* Add padding */
+    font-size: 16px; /* Set font size */
+    background-color: #4CAF50; /* Green background color */
+    color: white; /* White text color */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Add border radius */
+    cursor: pointer; /* Add cursor pointer */
+  }
+  
+  /* Style the button hover effect */
+  button:hover {
+    background-color: #45a049; /* Darker green on hover */
+  }
+  
+ /* Style the footer */
+footer {
+    background-color: #333; /* Dark background color */
+    color: #fff; /* White text color */
+    padding: 20px; /* Add padding */
+    text-align: center; /* Center align text */
+  }
+
+  .form-item {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+  }
+
+  .column1 {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    margin-bottom: 15px; /* Adjust margin as needed */
+  }
+  
+  .column2 {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-bottom: 15px; /* Adjust margin as needed */
+  }
+   
+  
+  .form-item {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center; /* Align items vertically in the center */
+    margin-bottom: 15px; /* Adjust margin as needed */
+  }
+  
+  .column1 {
+    grid-template-columns: 3fr 1fr;
+    margin-bottom: 15px; /* Adjust margin as needed */
+  }
+  
+  /* Style labels */
+  .form-item label {
+    text-align: right; /* Align labels to the right */
+    padding-right: 10px; /* Add padding to the right for spacing */
+  }
+  
+  /* Style inputs and selects */
+  .form-item input[type="text"],
+  .form-item input[type="email"],
+  .form-item select,
+  .form-item textarea {
+    padding: 8px; /* Add padding to inputs and selects */
+    font-size: 16px; /* Increase font size for better readability */
+    width: 100%; /* Ensure inputs and selects span the full width */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+  }
+  
+  /* Style checkbox */
+  .form-item input[type="checkbox"] {
+    width: auto; /* Allow checkbox to adjust width automatically */
+    height: 20px; /* Increase height for better visibility */
+    vertical-align: bottom; /* Align checkbox to the bottom for consistent alignment */
+  }
+  
+  /* Style button */
+  button {
+    padding: 10px 20px; /* Add padding to the button */
+    font-size: 16px; /* Increase font size for better readability */
+    background-color: #007bff; /* Set background color */
+    color: #fff; /* Set text color */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Add border radius for rounded corners */
+    cursor: pointer; /* Set cursor to pointer on hover */
+  }
+  
+  button:hover {
+    background-color: #0056b3; /* Darker background color on hover */
+  }
+  
+  
