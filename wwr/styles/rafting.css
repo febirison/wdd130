@@ -279,7 +279,8 @@ header nav a:hover {
   border-radius: 8px;
   width:300%;
   height: 300%;
-
+  allowfullscreen:"";
+  loading:lazy;
 }
 
 /* Employee Section */
