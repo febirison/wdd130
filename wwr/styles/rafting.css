@@ -225,3 +225,176 @@ header nav a:hover {
 .adventures-section h2{
   color:rgb(15, 15, 109);
 }
+
+/* contact us */
+
+/* Contact Section */
+
+.hero1 h1 {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 1rem;
+  background-color: var(--heading-background-color); /* Semi-transparent black background */
+  text-align: center; /* Center align the text */
+}
+
+.contact-section {
+  padding: 2em;
+  background-color: #ffffff;
+  margin: 1em 0;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.contact-section h1, .contact-section h2 {
+  color: #00509e;
+}
+
+.contact-section p {
+  line-height: 1.6;
+  align-items: center;
+}
+
+/* Layout for Contact Information and Map */
+.contact-info-map {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2em;
+
+}
+
+.contact-info, .contact-map {
+  flex: 1;
+  min-width: 300px;
+}
+
+.contact-info p {
+  margin: 0.5em 0;
+}
+
+.contact-map iframe {
+  width: 0.5%;
+  height: 0.5px;
+  border: 0;
+  border-radius: 8px;
+  align-items: right;
+}
+
+/* Employee Section */
+.employee-section {
+  text-align: center;
+  padding: 2em;
+  background-color: #ffffff;
+  margin: 2em 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.employee-section h2 {
+  margin-bottom: 1em;
+  color: #00509e;
+}
+
+.employee {
+  display: inline-block;
+  margin: 1em;
+  text-align: center;
+}
+
+.employee img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto 0.5em;
+  object-fit: cover;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.employee-title {
+  font-weight: bold;
+  color: #00509e;
+}
+
+/* Contact Form Styles */
+.contact-form form {
+  display: grid;
+  gap: 1em;
+  margin-top: 1em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form form label {
+  font-weight: bold;
+  color: #00509e;
+  font-size: 0.85em;
+  line-height: 1.5;
+  display: block;
+  margin-bottom: 5px;
+  align-items: baseline;
+}
+
+.contact-form form input[type="text"],
+.contact-form form input[type="email"],
+.contact-form form textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 15px;
+  font-size: 1em;
+  box-sizing: border-box;
+}
+
+.contact-form form textarea {
+  resize: vertical;
+}
+
+.contact-form form input[type="checkbox"] {
+  margin-right: 0.5em;
+  width: 20px;
+  align-items: end;
+}
+
+.contact-form form button {
+  padding: 10px;
+  background-image: linear-gradient(to bottom, #007bff, #00509e);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1em;
+  font-weight: bold;
+  display: block;
+  width: 100%;
+}
+
+.contact-form form button:hover {
+  background-image: linear-gradient(to bottom, #0062cc, #003f7f);
+}
+
+.contact-form form input[type="text"]:focus,
+.contact-form form input[type="email"]:focus,
+.contact-form form textarea:focus {
+  border: 1px solid #ccc;
+}
+
+/* Grid layout for labels and inputs (optional) */
+.contact-form form {
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+
+.contact-form form label,
+.contact-form form input[type="text"],
+.contact-form form input[type="email"],
+.contact-form form textarea {
+  grid-column: 1;
+}
+
+
