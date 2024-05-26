@@ -275,11 +275,11 @@ header nav a:hover {
 }
 
 .contact-map iframe {
-  width: 0.5%;
-  height: 0.5px;
-  border: 0;
+  border:0;
   border-radius: 8px;
-  align-items: right;
+  width:300%;
+  height: 300%;
+
 }
 
 /* Employee Section */
