@@ -57,21 +57,29 @@
   <form action="#" method="post">
     <label for="name">Name:</label>
     <input type="text" id="name" name="name" required><br><br>
+    
     <label for="email">Email Address:</label>
     <input type="email" id="email" name="email" required><br><br>
-    <label for="general_inquiry">Purpose of Message:</label><br>
+    
+    <label for="purpose">Purpose of Message:</label><br>
     <input type="radio" id="general_inquiry" name="purpose" value="General Inquiry" required>
     <label for="general_inquiry">General Inquiry</label><br>
+    
     <input type="radio" id="reservation_question" name="purpose" value="Reservation Question" required>
     <label for="reservation_question">Reservation Question</label><br>
+    
     <input type="radio" id="website_suggestion" name="purpose" value="Website Suggestion" required>
     <label for="website_suggestion">Website Suggestion</label><br><br>
+    
     <label for="message">Message:</label><br>
     <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+    
     <input type="checkbox" id="newsletter" name="newsletter" value="subscribe">
     <label for="newsletter">Please subscribe me to the monthly newsletter</label><br><br>
+    
     <button type="submit">Submit Message</button>
-  </form>
+</form>
+
 </section>
 </main>
 <footer>
