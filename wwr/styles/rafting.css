@@ -406,6 +406,7 @@ body {
   padding: 20px;
 }
 
+
 /* Call to Action */
 .call-to-action {
   background-color: rgb(15, 15, 109);
@@ -427,12 +428,14 @@ body {
   text-decoration: none;
   border-radius: 5px;
   font-weight: bold;
+  transition: background-color 0.3s, color 0.3s;
 }
 
 .call-to-action .cta-button:hover {
   background-color: rgb(15, 15, 109);
   color: var(--accent2-color);
 }
+
 
 /* Trip Descriptions */
 .trip-descriptions {
