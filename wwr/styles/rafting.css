@@ -57,7 +57,7 @@ p {
 .hero {
     position: relative; /* Set container to relative for absolute positioning */
     height: 500px; /* Adjust height as needed */
-    background-image: url("images/hero.jpg"); /* Replace with your hero image path */
+    background-image: url("images/hero.jpg"); /* hero image path */
     background-size: cover;
     background-position: center;
   }
@@ -344,7 +344,7 @@ header nav a:hover {
 .contact-form form input[type="email"],
 .contact-form form textarea {
   width: 100%;
-  padding: 8px;
+  padding: 5px;
   border: 1px solid #ccc;
   border-radius: 4px;
   margin-bottom: 15px;
@@ -398,3 +398,118 @@ header nav a:hover {
 }
 
 
+/* General Styles */
+body {
+  font-family: var(--paragraph-font);
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Call to Action */
+.call-to-action {
+  background-color: rgb(15, 15, 109);
+  color: var(--accent2-color);
+  text-align: center;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 5px;
+}
+
+.call-to-action p {
+  font-size: 1.2rem;
+}
+
+.call-to-action .cta-button {
+  background-color: var(--accent1-color);
+  color: var(--accent2-color);
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.call-to-action .cta-button:hover {
+  background-color: rgb(15, 15, 109);
+  color: var(--accent2-color);
+}
+
+/* Trip Descriptions */
+.trip-descriptions {
+  margin: 20px 0;
+}
+
+.trip-descriptions h2 {
+  text-align: center;
+  color: rgb(15, 15, 109);
+  margin-bottom: 20px;
+}
+
+.trip-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.trip {
+  background-color: var(--accent2-color);
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s;
+}
+
+.trip img {
+  width: 100%;
+  height: auto;
+}
+
+.trip-details {
+  padding: 20px;
+}
+
+.trip-details h3 {
+  color: rgb(15, 15, 109);
+  margin-bottom: 10px;
+}
+
+.trip-details p {
+  color: #333;
+}
+
+.trip:hover {
+  transform: translateY(-5px);
+}
+
+/* Trips Table */
+.trips-table {
+  margin: 20px 0;
+}
+
+.trips-table h2 {
+  text-align: center;
+  color: rgb(15, 15, 109);
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+thead th {
+  background-color: rgb(15, 15, 109);
+  color: var(--accent2-color);
+  padding: 10px;
+}
+
+tbody td {
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
