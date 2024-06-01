@@ -1,5 +1,7 @@
 /* Import font(s) from Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:wght@362&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
 
 /* Define colors from your color schema */
 :root {
@@ -515,4 +517,134 @@ tbody td {
 
 tbody tr:nth-child(even) {
   background-color: #f9f9f9;
+}
+
+
+/* index css*/
+
+body .index-bo {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header .index-bo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background: #333;
+  color: #fff;
+}
+
+header img .index-bo{
+  max-width: 150px;
+}
+
+nav a .index-bo{
+  color: #fff;
+  text-decoration: none;
+  margin: 0 2px;
+}
+
+.hero2 {
+  position: relative;
+  width: 100%;
+  height: 60vh;
+  background: url('images/hero2.jpg') no-repeat center center/cover;
+}
+
+.hero2-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+}
+
+.hero2-text h1 {
+  font-size: 3em;
+  margin: 0;
+  top:-100px;
+}
+
+.hero2-text p {
+  font-size: 1.5em;
+}
+
+.newsletter {
+  padding: 50px;
+  text-align: center;
+  background: #f4f4f4;
+}
+
+.newsletter form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.newsletter label, .newsletter input {
+  margin: 10px 0;
+}
+
+.call-to-action1 {
+  padding: 50px;
+  text-align: center;
+  background: #fff;
+}
+
+.call-to-action1 .cta-button {
+  padding: 10px 20px;
+  background: #007BFF;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.offerings {
+  padding: 50px;
+  text-align: center;
+}
+
+.offerings h2 {
+  margin-bottom: 30px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.grid-item {
+  background: #fff;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.grid-item img {
+  width: 100%;
+  height: auto;
+}
+
+footer {
+  background: rgb(15, 15, 109);
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+footer a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+footer img {
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
 }
