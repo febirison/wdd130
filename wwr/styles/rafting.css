@@ -422,8 +422,8 @@ body {
 }
 
 .call-to-action .cta-button {
-  background-color: var(--accent1-color);
-  color: var(--accent2-color);
+  background-color: #FFFFFF;
+  color: #000;
   padding: 10px 20px;
   text-decoration: none;
   border-radius: 5px;
