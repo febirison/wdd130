@@ -571,13 +571,13 @@ nav a .index-bo{
   font-size: 3em;
   margin: 0;
   top:-100px;
-  background: #0f0f6d;
-
+  
+  background-color: var(--heading-background-color);
 }
 
 .hero2-text p {
   font-size: 1.5em;
-  background: #0f0f6d;
+  background-color: var(--heading-background-color);
  background: size 20px;
 }
 
