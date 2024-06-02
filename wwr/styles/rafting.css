@@ -554,6 +554,7 @@ nav a .index-bo{
   height: 60vh;
   background: url('images/hero2.jpg') no-repeat center center/cover;
   padding:20px;
+  opacity: 0.5,
 }
 
 .hero2-text {
@@ -570,11 +571,14 @@ nav a .index-bo{
   font-size: 3em;
   margin: 0;
   top:-100px;
-  
+  background: #0f0f6d;
+
 }
 
 .hero2-text p {
   font-size: 1.5em;
+  background: #0f0f6d;
+ background: size 20px;
 }
 
 .newsletter {
